@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: inline;
+width: fit-content;
+
+}
+li{
+color: black;
+display: inline;
+padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+span{
+    text-decoration: underline;
+}
+header p{
+text-align: center;
+background-color: #DB4444;
+color: white;
+width: 99.5vw;
+height: 6vh;
+}
+a button{
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 2vw;
+}
+nav input{
+    margin-left:5vw ;
+}
+nav{
+    padding-left: 10vw;
+}
+i{
+    font-size: 1.5vw;
+    padding: 0.5vw;
+}
+.carousel-item{
+    width: 100vw !important;
+height: 90vh;
+}
+.carousel-control-prev{
+    background-color: gray !important;
+}
+.carousel-control-next{
+    background-color: gray !important;
+}
+.Frame{
+    margin-left: 5vw;
+
+}
+h5{
+    margin-left: 7vw;
+}
+nav p{
+    display: inline;
+}
+.ss{
+    position: relative;
+}
+.a button{
+    position: absolute;
+    right: 45vw;
+    top: 129.5vw;
+    height: 5vh;
+    width: 10vw;
+    background-color: black;
+}
+.b button{
+    height: 8vh;
+    width: 12vw;
+    position: absolute;
+    right: 79vw;
+    top: 165.9vw;
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color: #DB4444 !important;
+}
+.emily{
+    box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
+    width: 20vw;
+    background-color: white;
+    height: 15vw;
+    margin: 2vw;
+}
+.sarah{
+    box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
+    width: 20vw;
+    background-color: #E07575;
+    height: 15vw;
+    margin: 2vw;
+    position: relative;
+    left: 30vw;
+    bottom: 17vw;
+}
+.olivia{
+    box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
+    width: 20vw;
+    background-color: white;
+    height: 15vw;
+    margin: 2vw;
+    position: relative;
+    left: 60vw;
+    bottom: 34vw;
+}
+.c{
+    position: relative;
+}
+.d,.e,.f,.g{
+    position: absolute;
+}
+.d{
+    right: 86vw;
+    top:288vw;
+}
+.d button{
+    width: 12vw;
+    height: 7vh;
+}
+.f{
+    right:65vw ;
+    top: 288vw;
+}
+.f button{
+    width: 12vw;
+    height: 7vh ;
+}
+.e{
+    left: 42vw;
+    top: 288vw;
+}
+.e button{
+    width: 12vw;
+    height: 7vh;
+}
+.g{
+    right: 24vw;
+    top: 288vw;
+}
+.g button{
+    width: 12vw;
+    height: 7vh;
+}
+footer img{
+    width: 99vw;
+}
