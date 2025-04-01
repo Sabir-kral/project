@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: inline;
+width: fit-content;
+
+}
+li{
+color: black;
+display: inline;
+padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+span{
+    text-decoration: underline;
+}
+header p{
+text-align: center;
+background-color: #DB4444;
+color: white;
+width: 99.5vw;
+height: 6vh;
+}
+a button{
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 2vw;
+}
+nav input{
+    margin-left:5vw ;
+}
+nav{
+    padding-left: 10vw;
+}
+i{
+    font-size: 1.5vw;
+    padding: 0.5vw;
+}
+footer{
+    background-color: #DB4444;
+    width: 99vw;
+    height: 50vh;
+    position: relative;
+    top: 40vw;
+}
+footer a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.names{
+    display: flex;
+    justify-content: space-between  ;
+}
+.inputs input{
+display: block;
+width: 15vw;
+margin: 50px auto;
+border: 0.5px black solid;
+padding: 1vw;
+}
+.inputs{
+    text-align: center;
+}
+.inputs button{
+    width: 15vw;
+    color: white;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 0.2vw;
+    height: 2vw;
+}

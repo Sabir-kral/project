@@ -63,7 +63,7 @@ height: 90vh;
     margin-left: 5vw;
 
 }
-h5{
+ main h5{
     margin-left: 7vw;
 }
 nav p{
@@ -96,67 +96,180 @@ h2{
     box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
     width: 20vw;
     background-color: white;
-    height: 15vw;
+    height: fit-content;
     margin: 2vw;
+    position: relative;
+    bottom: 6vw;
 }
 .sarah{
     box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
     width: 20vw;
     background-color: #E07575;
-    height: 15vw;
+    height: fit-content;
     margin: 2vw;
     position: relative;
     left: 30vw;
-    bottom: 17vw;
+    bottom: 19vw;
 }
 .olivia{
     box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
     width: 20vw;
     background-color: white;
-    height: 15vw;
+    height: fit-content;
     margin: 2vw;
     position: relative;
     left: 60vw;
-    bottom: 34vw;
+    bottom: 32vw;
 }
-.c{
+.promotion{
+    background-color: rgb(255, 166, 0, 0.4);
+    width: 70vw;  
+    
+}
+.all{
+    display: flex;
+}
+.time{
+    display: flex;
+}
+.time div{
+    padding: 0.5vw;
+    background-color: white;
+    margin-left: 1vw;
+    font-size: 2vw;
+}
+.timeName{
+    display: flex;
+}
+.timeName p{
+    padding-left: 1.5vw;
+}
+.all button{
+    width: 10vw;
+    height: 8vh;
+    margin-left:2vw ;
+    background-color: black;
+}
+.img{
     position: relative;
+    left: 70vw;
+    width: fit-content;
 }
-.d,.e,.f,.g{
-    position: absolute;
+.iPhone{
+    background-color: #211C24;
+    width: 93vw;
+    color: white;
+    position: relative;
+    top: 33vw;
+    height: 60vh;
 }
-.d{
-    right: 86vw;
-    top:288vw;
+.iPhone button{
+    margin-top: 15vw;
+    margin-left: 10vw;
+    background: none;
+    border: 0.2vw white solid;
+    width: 10vw;
+    height: 5vh;
 }
-.d button{
-    width: 12vw;
-    height: 7vh;
+.airpods{
+    width: 25vw;
 }
-.f{
-    right:65vw ;
-    top: 288vw;
+.airpods button{
+    background: none;
+    color: black;
+    border: 0.1vw black solid;
+    height: 6vh;
+    width: 9vw;
+    margin: 1vw;
 }
-.f button{
-    width: 12vw;
-    height: 7vh ;
+.airpods img{
+    width: 16.5vw;
 }
-.e{
-    left: 42vw;
-    top: 288vw;
+.iPad{
+    width: 25vw;
+    position: relative;
+    left: 25vw;
+    bottom: 31.5vw;
+    background-color: #F9F9F9;
 }
-.e button{
-    width: 12vw;
-    height: 7vh;
+.iPad button{
+    background: none;
+    color: black;
+    border: 0.1vw black solid;
+    height: 6vh;
+    width: 9vw;
+    margin: 1vw;
 }
-.g{
-    right: 24vw;
-    top: 288vw;
+.Phone{
+    width: 25vw;
+    position: relative;
+    bottom: 63.5vw;
+    left:50vw ;
+    background-color: #EAEAEA;
+    
 }
-.g button{
-    width: 12vw;
-    height: 7vh;
+.Phone button{
+    background: none;
+    color: black;
+    border: 0.1vw black solid;
+    height: 6vh;
+    width: 9vw;
+    margin: 1vw;
 }
-footer img{
+.Phone img{
+    width: 21vw;
+}
+.mackbook{
+    width: 25vw;
+    position: relative;
+    left: 75vw;
+    bottom: 95.5vw;
+    background-color: #2C2C2C;
+    color: white;
+}
+.mackbook button{
+    background: none;
+    color: white;
+    border: 0.1vw white solid;
+    height: 6vh;
+    width: 9vw;
+    margin: 1vw;
+}
+.mackbook img{
+    width: 20.2vw;
+}
+footer{
+    background-color: #DB4444;
     width: 99vw;
+    height: 50vh;
+    position: relative;
+    bottom: 90vw;
+}
+footer a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.names{
+    display: flex;
+    justify-content: space-between  ;
+}
+.logIn{
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 2vw;
+}
+.bi-person{
+    display: none;
+}
+.name{
+    display: none;
 }
