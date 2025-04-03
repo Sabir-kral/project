@@ -270,11 +270,9 @@ footer a{
     border-radius: 4px;
     margin-top: 2vw;
 }
-.bi-person{
-    display: none;
-}
+
 .name{
-    display: none;
+    display: inline;
 }
 .feedBack{
     position: relative;

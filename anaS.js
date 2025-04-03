@@ -9,3 +9,6 @@ button.addEventListener("click",()=>{
         names.style.display = "none"
     }
 })
+function opens() {
+    window.open("./user.html")
+}

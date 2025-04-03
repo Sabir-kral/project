@@ -27,7 +27,7 @@ header p{
 text-align: center;
 background-color: #DB4444;
 color: white;
-width: 99.5vw;
+width: 95vw;
 height: 6vh;
 }
 a button{
@@ -49,17 +49,210 @@ i{
     font-size: 1.5vw;
     padding: 0.5vw;
 }
+.carousel-item{
+    width: 95vw !important;
+height: 90vh;
+}
+.carousel-control-prev{
+    background-color: gray !important;
+}
+.carousel-control-next{
+    background-color: gray !important;
+    position: relative;
+    right:  5vw !important;
+}
+.Frame{
+    margin-left: 5vw;
+
+}
+ main h5{
+    margin-left: 7vw;
+}
+nav p{
+    display: inline;
+}
+.ss{
+    position: relative;
+}
+.a button{
+    position: absolute;
+    right: 45vw;
+    top: 129.5vw;
+    height: 5vh;
+    width: 10vw;
+    background-color: black;
+}
+.b button{
+    height: 8vh;
+    width: 12vw;
+    position: absolute;
+    right: 79vw;
+    top: 165.9vw;
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color: #DB4444 !important;
+}
+.emily{
+    box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
+    width: 20vw;
+    background-color: white;
+    height: fit-content;
+    margin: 2vw;
+    position: relative;
+    bottom: 6vw;
+}
+.sarah{
+    box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
+    width: 20vw;
+    background-color: #E07575;
+    height: fit-content;
+    margin: 2vw;
+    position: relative;
+    left: 30vw;
+    bottom: 19vw;
+}
+.olivia{
+    box-shadow: 29px 28px 44px 0px rgba(0, 0, 0, 0.3);
+    width: 20vw;
+    background-color: white;
+    height: fit-content;
+    margin: 2vw;
+    position: relative;
+    left: 60vw;
+    bottom: 32vw;
+}
+.promotion{
+    background-color: rgb(255, 166, 0, 0.4);
+    width: 50vw;  
+    
+}
+.all{
+    display: flex;
+}
+.time{
+    display: flex;
+}
+.time div{
+    padding: 0.5vw;
+    background-color: white;
+    margin-left: 1vw;
+    font-size: 2vw;
+}
+.timeName{
+    display: flex;
+}
+.timeName p{
+    padding-left: 1.5vw;
+}
+.all button{
+    width: 10vw;
+    height: 8vh;
+    margin-left:2vw ;
+    background-color: black;
+}
+.img{
+    position: relative;
+    left: 70vw;
+    width: fit-content;
+}
+.iPhone{
+    background-color: #211C24;
+    width: 93vw;
+    color: white;
+    position: relative;
+    top: 33vw;
+    height: 60vh;
+}
+.iPhone button{
+    margin-top: 15vw;
+    margin-left: 10vw;
+    background: none;
+    border: 0.2vw white solid;
+    width: 10vw;
+    height: 5vh;
+}
+.airpods{
+    width: 25vw;
+}
+.airpods button{
+    background: none;
+    color: black;
+    border: 0.1vw black solid;
+    height: 6vh;
+    width: 9vw;
+    margin: 1vw;
+}
+.airpods img{
+    width: 16.5vw;
+}
+.iPad{
+    width: 25vw;
+    position: relative;
+    left: 25vw;
+    bottom: 31.5vw;
+    background-color: #F9F9F9;
+}
+.iPad button{
+    background: none;
+    color: black;
+    border: 0.1vw black solid;
+    height: 6vh;
+    width: 9vw;
+    margin: 1vw;
+}
+.Phone{
+    width: 25vw;
+    position: relative;
+    bottom: 63.5vw;
+    left:50vw ;
+    background-color: #EAEAEA;
+    
+}
+.Phone button{
+    background: none;
+    color: black;
+    border: 0.1vw black solid;
+    height: 6vh;
+    width: 9vw;
+    margin: 1vw;
+}
+.Phone img{
+    width: 21vw;
+}
+.mackbook{
+    width: 25vw;
+    position: relative;
+    left: 75vw;
+    bottom: 95.5vw;
+    background-color: #2C2C2C;
+    color: white;
+}
+.mackbook button{
+    background: none;
+    color: white;
+    border: 0.1vw white solid;
+    height: 6vh;
+    width: 7vw;
+    margin: 1vw;
+}
+.mackbook img{
+    width: 20.2vw;
+}
 footer{
     background-color: #DB4444;
-    width: 99vw;
+    width: 95vw;
     height: 50vh;
     position: relative;
-    top: 40vw;
+    margin-top: 22vw;
+    color: white;
 }
 footer a{
     display: block;
-    color: black;
+    color: white;
     text-decoration: none;
+
 }
 .footer{
     display: flex;
@@ -69,17 +262,32 @@ footer a{
     display: flex;
     justify-content: space-between  ;
 }
-.inputs input{
+.logIn{
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 2vw;
+}
+.bi-person{
+    display: none;
+}
+.name{
+    display: none;
+}
+.f input{
     display: block;
     width: 15vw;
     margin: 50px auto;
     border: 0.5px black solid;
     padding: 1vw;
     }
-    .inputs{
+    .f{
         text-align: center;
     }
-    .inputs button{
+    .f button{
         width: 15vw;
         color: white;
         background-color: #DB4444;
