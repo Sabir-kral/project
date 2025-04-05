@@ -1,28 +1,22 @@
-let form = document.querySelector(".f")
-form.addEventListener("submit",(event)=>{
-    event.preventDefault()
-    let input1 = document.querySelector("#input")
-    let input2 = document.querySelector("#inputIki")
-    let users = JSON.parse(localStorage.getItem("users"))
-    let findUser = users.find(user=>user.username==input1.value)
-    let findUser2 = users.find(user=>user.password==input2.value)
-    let p = document.querySelector(".p1")
-    let p2 = document.querySelector(".p2")
-    if (findUser) {
-        p.innerText = "looks good!"
-        p.style.color = "green"
-    } else {
-        p.innerText = "looks bad!"
-        p.style.color = "red"
-    }
-    if (findUser2) {
-        p2.innerText = "looks good!"
-        p2.style.color = "green"
-    } else {
-        p2.innerText = "looks bad!"
-        p2.style.color = "red"
-    }
-    if (p.style.color=="green"&&p2.style.color=="green") {
-        window.open("./anaS2.html")
-    }
+let arr  =[]
+let form=document.querySelector("form")
+form.addEventListener("submit", (event)=>{
+event.preventDefault();
+let inputs=document.querySelectorAll("input")
+let users=JSON.parse(localStorage.getItem("users"));
+let findusers= users.find(user=> user.username==inputs[1].value&& user.password==inputs[2].value);
+ if (findusers) {
+   
+    alert("giris uqurludur😊")
+    window.location.href="index.html";
+    arr.push(inputs[1].value)
+    JSON.parse(localStorage.setItem("activeUsers",arr))
+ } else {
+    alert("users tapilmadi😊")
+ }
+
+inputs[1].value="";
+inputs[2].value="";
+
+
 })

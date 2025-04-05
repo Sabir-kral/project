@@ -262,6 +262,7 @@ footer a{
     justify-content: space-between  ;
 }
 .logIn{
+    display: none;
     background-color: #DB4444;
     color: white;
     border: none;
@@ -284,4 +285,14 @@ footer a{
     .img img{
         top: 10vw;
     }
+}
+.logOut{
+    display: inline;
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 2vw;
 }
