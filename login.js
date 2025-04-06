@@ -5,15 +5,18 @@ event.preventDefault();
 let inputs=document.querySelectorAll("input")
 let users=JSON.parse(localStorage.getItem("users"));
 let findusers= users.find(user=> user.username==inputs[1].value&& user.password==inputs[2].value);
- if (findusers) {
-   
-    alert("giris uqurludur😊")
-    window.location.href="index.html";
-    arr.push(inputs[1].value)
-    JSON.parse(localStorage.setItem("activeUsers",arr))
- } else {
-    alert("users tapilmadi😊")
- }
+let p = document.querySelector(".p2 ")
+if (findusers) {
+   p.innerText = "giris ugurludur"
+   p.style.color = "green"
+   alert("giris ugurludur")
+           window.location.href = "index.html"
+           arr.push(inputs[1].value)
+           JSON.parse(localStorage.setItem("activeUsers",arr))
+       } else {
+           p.innerText = "user tapilmadi"
+           p.style.color = "red"
+       }
 
 inputs[1].value="";
 inputs[2].value="";

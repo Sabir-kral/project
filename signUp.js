@@ -17,5 +17,4 @@ let input5 = document.querySelector("#inputBes")
     users.push(object)
     localStorage.setItem("users",JSON.stringify(users))
     form.reset()
-    
 })

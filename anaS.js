@@ -15,3 +15,6 @@ function out() {
     logOut.style.display = "none"
     logIn.style.display = "inline"
 }
+function openss() {
+    window.open("./user.html")
+}
