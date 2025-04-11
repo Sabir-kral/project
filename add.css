@@ -246,7 +246,7 @@ footer{
     height: 50vh;
     position: relative;
     color: white;
-    top: 15vw;
+    top: 40vw;
 }
 footer a{
     display: block;
@@ -273,19 +273,14 @@ footer a{
     margin-top: 2vw;
 }
 .bi-person{
-    display: inline;
+    display: none;
 }
 .name{
-    display: inline;
+    display: none;
 }
 .feedBack{
     position: relative;
     top: 10vw;
-}
-@media only screen and(max-width:1254px) {
-    .img img{
-        top: 10vw;
-    }
 }
 .logOut{
     display: inline;
@@ -297,24 +292,59 @@ footer a{
     border-radius: 4px;
     margin-top: 2vw;
 }
-main a button{
-    margin: 5vw;
+@media only screen and (max-width:1333px){
+    .olivia{
+        position: relative;
+        bottom: 45vw;
+    }
+    .emily{
+        position: relative;
+        bottom: 7vw;
+    }
+    .sarah{
+        position: relative;
+        bottom:27vw;
+    }
+    .img img{
+        width: 25vw;
+        position: relative;
+        bottom: 3vw;
+    }
 }
-main .user{
-    box-shadow: -15px 13px 43px 21px rgba(0, 0, 0, 0.3);
-    width: 20vw;
-    margin-left:20vw  ;
-}
-main .user p{
-    padding-top:1vw ;
-    font-size: 1.5vw;
-}
-main div h5{
-    text-align: left;
-    font-size: 1.5vw;
-    color: #DB4444;
-}
-main .logOut{
+main input{
     display: block;
-    margin-left: 20vw;
+    margin: 2vw auto;
+    height: 2vw;
+    border: 0.1vw solid black;
+    width: 20vw;
+}
+main img{
+    display: inline;
+    position: relative;
+    left: 45vw;
+}
+main button{
+    display: block;
+    position: relative;
+    left: 45vw;
+    margin: 2vw;
+}
+main .save{
+    background-color: rgb(67, 67, 184);
+    color: white;
+    border: none;
+    width: 5vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+}
+main .Reset{
+    background-color: rgb(184, 176, 67);
+    color: white;
+    border: none;
+    width: 5vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+}
+main h1{
+    text-align: center;
 }

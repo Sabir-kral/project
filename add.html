@@ -4,41 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./user.css">
+    <link rel="stylesheet" href="./add.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-  <header>
-    <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <span>ShopNow</span></p>
-</header>
-<nav>
-    <h2>E-comerce</h2>
-    <a class="home" href="./index.html"><li>Home</li></a>
-    <a href="./contact.html"><li>Contact</li></a>
-    <a href="./about.html"><li>About</li></a>
-    <a href="./signUp.html"><li>Sign Up</li></a>
-    <a href="./shop.html"><button>Shop</button></a>
-    <input type="search" placeholder="what are you looking for?">
-    <i class="bi bi-search" ></i>
-    <i class="bi bi-cart4"></i>
-    <i onclick="openss()" class="bi bi-person"></i>
-    <p class="name">sabir</p>
-   <button class="logIn" onclick="opens()">Log in</button>
-   <button class="logOut" onclick="out()">log Out</button>
-  </nav>
-  <hr>
-    <main>
-<div class="cont">
-          <a href="./products.html"><button>My products for sail</button></a>
-        <div class="user">
-          <h5>user Details</h5>
-         <p class="names">name:</p>
-         <p class="surname">surname:</p>
-          <p class="email">email:</p>
-          <p class="username">username:</p>
-        </div>
-</div>
-    </main>
+    <header>
+        <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <span>ShopNow</span></p>
+    </header>
+    <nav>
+        <h2>E-comerce</h2>
+        <a class="home" href="./index.html"><li>Home</li></a>
+        <a href="./contact.html"><li>Contact</li></a>
+        <a href="./about.html"><li>About</li></a>
+        <a href="./signUp.html"><li>Sign Up</li></a>
+        <a href="./shop.html"><button>Shop</button></a>
+        <input type="search" placeholder="what are you looking for?">
+        <i class="bi bi-search" ></i>
+        <i class="bi bi-cart4"></i>
+        <i onclick="openss()" class="bi bi-person"></i>
+        <p class="name">sabir</p>
+       <button class="logIn" onclick="opens()">Log in</button>
+       <button class="logOut" onclick="out()">log Out</button>
+      </nav>
+      <hr>
+
+
+      <main>
+<form action="">
+  <h1>create product</h1>
+    <input type="text" placeholder="brand">
+    <input type="text" placeholder="model">
+    <input type="text" placeholder="category">
+    <input type="text" placeholder="description">
+    <input type="text" placeholder="price">
+    <input type="text" placeholder="rating">
+    <input type="text" placeholder="image(URL)">
+    <img src="" alt="preview">
+    <button class="save" type="submit">Save</button>
+    <button class="Reset">Reset</button>    
+</form>
+      </main>
+
 
     <footer>
         <form action="">
@@ -81,10 +87,11 @@
         </div>
       </div>
       </footer>
+    
 
 
 
 
-      <script src="./user.js"></script>
+    <script src="./add.js"></script>
 </body>
 </html>

@@ -14,8 +14,23 @@ function out() {
     let logIn = document.querySelector(".logIn")
     logOut.style.display = "none"
     logIn.style.display = "inline"
-    localStorage.removeItem("activeUsers")
+    localStorage.removeItem("activeUser")
 }
 function openss() {
     window.open("./user.html")
 }
+function opensss() {
+    window.open("./add.html")
+}
+let body = document.querySelector("body")
+let products = localStorage.getItem("products")
+let tbody = document.createElement("tbody")
+let table = document.querySelector("table")
+table.append(tbody)
+let tr = document.createElement("tr")
+tbody.append(tr)
+let td = document.createElement("td")
+td.innerText = products
+tr.append(td)
+
+tbody.append(body)

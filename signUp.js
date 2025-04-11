@@ -1,4 +1,4 @@
-let form = document.querySelector(".f   ")
+let form = document.querySelector(".f")
 let users = JSON.parse(localStorage.getItem("users"))||[];
 form.addEventListener("submit",(event)=>{
     event.preventDefault()
@@ -16,5 +16,6 @@ let input5 = document.querySelector("#inputBes")
     }
     users.push(object)
     localStorage.setItem("users",JSON.stringify(users))
-    form.reset()
+
+
 })
