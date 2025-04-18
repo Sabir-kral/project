@@ -19,7 +19,8 @@ function out() {
     let logIn = document.querySelector(".logIn")
     logOut.style.display = "none"
     logIn.style.display = "inline"
-    localStorage.removeItem("activeUser")
+    localStorage.removeItem("activeUsers")
+    logOut.style.display = "none"
 }
 function openss() {
     window.open("./user.html")

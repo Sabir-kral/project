@@ -27,7 +27,9 @@ function out() {
     surname.innerHTML = "surname:"
     emails.innerHTML = "email:"
     namess.innerHTML = "name:"
-    localStorage.removeItem("activeUser")
+        localStorage.removeItem("activeUsers")
+        logOut.style.display = "none"
+    
 }
 function openss() {
     window.open("./user.html")

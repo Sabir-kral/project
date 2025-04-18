@@ -15,6 +15,7 @@ function out() {
     logOut.style.display = "none"
     logIn.style.display = "inline"
     localStorage.removeItem("activeUsers")
+    logOut.style.display = "none"
 }
 function openss() {
     window.open("./user.html")

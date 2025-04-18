@@ -1,4 +1,4 @@
-let form = document.querySelector(".f")
+    let form = document.querySelector(".f")
 let users = JSON.parse(localStorage.getItem("users"))||[];
 form.addEventListener("submit",(event)=>{
     event.preventDefault()

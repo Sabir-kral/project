@@ -14,7 +14,8 @@ function out() {
     let logIn = document.querySelector(".logIn")
     logOut.style.display = "none"
     logIn.style.display = "inline"
-    localStorage.removeItem("activeUser")
+    localStorage.removeItem("activeUsers")
+    logOut.style.display = "none"
 }
 function openss() {
     window.open("./user.html")
@@ -23,7 +24,8 @@ function opensss() {
     window.open("./add.html")
 }
 let body = document.querySelector("body")
-let products = localStorage.getItem("products")
+let products = localStorage.getItem("activeProducts")
+let activeProducts = JSON.parse(localStorage.setItem("activeProducts",products))
 let tbody = document.createElement("tbody")
 let table = document.querySelector("table")
 table.append(tbody)
