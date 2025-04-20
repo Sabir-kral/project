@@ -3,12 +3,12 @@ resets.addEventListener("click",()=>{
     let form = document.querySelector("form")
     form.reset()
 })
-let user = localStorage.getItem("activeUsers")
-let names = document.querySelector(".name")
-names.innerHTML = user
-names.style.display = "inline"
-let person = document.querySelector(".bi-person")
-person.style.display = "inline"
+let user = JSON.parse(localStorage.getItem("activeUser"));
+let names = document.querySelector(".name");
+names.innerHTML = user.username;
+names.style.display = "inline" ;
+let person = document.querySelector(".bi-person") ;
+person.style.display = "inline";
 function opens() {
     window.open("./login.html")
 }
@@ -33,9 +33,7 @@ reset.addEventListener("click",()=>{
     let form = document.querySelector("form")
     form.reset()
 })
-save.addEventListener("dblclick",()=>{
-    window.open("./products.html")
-})
+
 let arr = []
 form.addEventListener("submit",(event)=>{
     event.preventDefault()

@@ -11,8 +11,9 @@ if (findusers) {
    p.style.color = "green"
    alert("giris ugurludur")
            window.location.href = "index.html"
-           arr.push(inputs[1].value)
-           JSON.parse(localStorage.setItem("activeUsers",arr))
+        //    arr.push(inputs[1].value)
+        //    JSON.parse(localStorage.setItem("activeUsers",arr))
+           localStorage.setItem("activeUser",JSON.stringify(findusers))
        } else {
            p.innerText = "user tapilmadi"
            p.style.color = "red"
