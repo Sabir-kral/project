@@ -20,3 +20,6 @@ function out() {
 function openss() {
     window.open("./user.html")
 }
+function cart() {
+    window.open("./cart.html")
+}

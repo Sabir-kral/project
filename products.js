@@ -20,8 +20,8 @@ function out() {
 function openss() {
     window.open("./user.html")
 }
-function opensss() {
-    window.open("./add.html")
+function cart() {
+    window.open("./cart.html")
 }
 let body = document.querySelector("body")
 let products =JSON.parse(localStorage.getItem("products"));
@@ -55,7 +55,14 @@ products.forEach(element => {
     button.innerText = "sil"
     button.classList.add("delete")
     td8.append(button)
-
+    let button2 = document.createElement("button")
+    button2.classList.add("redakte")
+    button2.style.backgroundColor = "blue"
+    button2.style.color = "white"
+    button2.style.border = "none"
+    button2.style.borderRadius = "4px"
+    button2.innerText = "redakte"
+td8.append(button2)
     
 
     
@@ -63,10 +70,18 @@ products.forEach(element => {
     tr.append(td1, td2,td3,td4,td5,td6,td7,td8);
     tbody.append(tr)
 });
+
 let deletebutton = document.querySelectorAll(".delete")
 deletebutton.forEach(button => {
     button.addEventListener("click",(event)=>{
         event.target.parentElement.parentElement.remove()
         localStorage.removeItem("products")
+    })
+});
+let button2 = document.querySelectorAll(".redakte")
+button2.forEach(redakte => {
+    redakte.addEventListener("click", (event)=>{
+        event.target.parentElement.parentElement.remove()
+        window.open("./add.html")
     })
 });

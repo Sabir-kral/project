@@ -1,8 +1,3 @@
-let resets = document.querySelector(".Reset")
-resets.addEventListener("click",()=>{
-    let form = document.querySelector("form")
-    form.reset()
-})
 let user = JSON.parse(localStorage.getItem("activeUser"));
 let names = document.querySelector(".name");
 names.innerHTML = user.username;
@@ -24,6 +19,9 @@ function out() {
 }
 function openss() {
     window.open("./user.html")
+}
+function cart() {
+    window.open("./cart.html")
 }
 
 let form = document.querySelector("form")

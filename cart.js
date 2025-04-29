@@ -23,7 +23,3 @@ function openss() {
 function cart() {
     window.open("./cart.html")
 }
-let button = document.querySelector(".submit")
-button.addEventListener("click",()=>{
-    window.open("./index.html")
-})
